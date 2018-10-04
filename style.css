@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: "Verdana", sans-serif;
+    color: #ffffff;
+    height: 100vh;
+}
+#header {
+    height: 100vh;
+    background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.header-inner {
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+.first-line {
+    font-size: 3vh;
+}
+.second-line {
+    font-size: 5vh;
+}
